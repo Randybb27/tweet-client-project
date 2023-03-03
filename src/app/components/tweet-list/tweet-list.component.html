@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<br>
+
+<div>
+            
+    <div *ngFor="let p of allTweet">
+      
+    <p>{{p.description}}</p>
+    <p>{{p.name}}</p>
+    <p>{{p.date}}</p>
+    <button mat-raised-button [routerLink]="['/edit', p.id]">Edit</button>
+    <button (click)="deleteTweet(p.id)" mat-raised-button>Delete</button>
+    </div>
+    
+
+</div>

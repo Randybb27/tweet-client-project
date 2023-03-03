@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<br>
+
+<h1>Feed</h1>
+
+        <div>
+            
+        <div *ngFor="let p of allTweet">
+          
+        <p>{{p.description}}</p>
+        <p>{{p.name}}</p>
+        <p>{{p.date}}</p>
+
+        </div>
+
+    </div>
+
+
+<input type="text" placeholder="tweet"[(ngModel)]="newTweet.description">
+
+<button (click)="createTweet(newTweet)" mat-raised-button>POST</button>
+
+

@@ -1,0 +1,50 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "comment": "this is easier"
+    }
+  ],
+  "posts": [
+    {
+      "description": "This is a practice tweet",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "description": "hello world"
+    },
+    {
+      "id": 3,
+      "description": "hello"
+    },
+    {
+      "id": 4,
+      "description": "red"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+    "name": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "email": "randybb27@gmail.com",
+      "password": "password",
+      "firstName": "Randall",
+      "lastName": "Beebe",
+      "userName": "randybb27",
+      "city": "LEWISVILLE",
+      "state": "TX",
+      "id": 2
+    }
+  ]
+  }

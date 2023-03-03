@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+<form (ngSubmit)="signIn()">
+    <h1>SIGN IN</h1>
+    <span>User Name  </span>
+    <input placeholder="Enter User Name" type="text" name="userName" [(ngModel)]="newUser.userName"><br><br>
+    <span>Password  </span>
+    <input placeholder="Enter Password" type="text" name="password" [(ngModel)]="newUser.password"><br><br>
+
+    <button>
+        Sign In
+      </button>
+  </form>

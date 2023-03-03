@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<h1>SEARCH USERS</h1>
+
+<div class="search">
+    <input type="text" placeholder="Search.."[(ngModel)]="searchTerm">
+    <button (click)="searchUser()" mat-raised-button>Search</button>
+
+    <div class="Cards">
+        <div class="flex-container"></div>
+        <p *ngFor="let u of user">
+            {{u.userName}}
+            <br>
+            {{u.firstName}}
+            <br>
+            {{u.lastName}}
+            <br>
+            {{u.email}}
+            <br>
+            {{u.city}}
+            <br>
+            {{u.state}}
+
+            </p>
